@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #d32f2f;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
+.parallax-section {
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+    
+  }
+  
+  .parallax-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: url('assets/images/Logo.svg') no-repeat center center; */
+    z-index: -1;
+    transform: translateZ(-1px) scale(2);
+    
+   
+  
+  }
+  
+  .parallax-content {
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+  }
+
+  #logo-container svg {
+    max-width: 100%;
+    height: auto;
+
+  }
+
+
+
+
+  main p {
+    font-size: 1.1em;
+  }
+
+  main h1 {
+    font-size: 1.8em;
+  }
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
